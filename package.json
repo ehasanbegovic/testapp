@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "everything",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+	"lite-server": "latest"
+  },
+  "author": "me",
+  "license": "Apache"
+}
