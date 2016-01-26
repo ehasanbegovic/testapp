@@ -1,9 +1,9 @@
 (function() {
   'use strict';
-  angular.module("about").provider('aboutResolver', aboutResolver);
+  angular.module("contact").provider('contactResolver', contactResolver);
 
-  function aboutResolver() {
-    this.$get = function(aboutService) {
+  function contactResolver() {
+    this.$get = function(contactService) {
       return resolve;//aboutService.about.getInfo();
     };
   }

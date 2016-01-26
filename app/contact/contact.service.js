@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  angular.module("about").service("aboutService", function($resource) {
+  angular.module("contact").service("contactService", function($resource) {
 
     // document resource
     this.about = $resource('/REST/rest.php', {}, {

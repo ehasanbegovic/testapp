@@ -1,4 +1,4 @@
 (function() {
-    'use strict';
-    angular.module("about", ["ngResource"]);
+  'use strict';
+  angular.module("about", ["ngResource"]);
 })();
